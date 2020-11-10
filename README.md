@@ -1,0 +1,2 @@
+# HomeworkBot
+NO MORE SHALL THY COPY
