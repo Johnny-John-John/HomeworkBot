@@ -11,8 +11,8 @@ ArrayList<Button> buttons ;
 
 
 void setup() { 
-  size(700, 900) ; //
-  //fullScreen() ; 
+  //size(700, 900) ; //
+  fullScreen() ; 
   sliders = new ArrayList<Slider>() ; 
   buttons = new ArrayList<Button>() ; 
   sliders.add( new Slider( "Red", 64, height*0.92, 255) ) ; 
@@ -27,7 +27,7 @@ void setup() {
     //createFont("C:\\Users\\Chinmay\\Desktop\\Homeworkbot\\HAND FONTS\\FINAL1.ttf", 128 ), 
     //createFont("C:\\Users\\Chinmay\\Desktop\\Homeworkbot\\HAND FONTS\\Omega1-Regular.ttf", 128 )
   } ; // PFont.list() ; 
-  backgroundPage = loadImage(System.getProperty("user.home") + "\\Desktop\\Homeworkbot\\Background Pages\\Labpage_Lines1.jpg"); 
+  backgroundPage = createImage(600,600,RGB) ; //loadImage(System.getProperty("user.home") + "\\Desktop\\Homeworkbot\\Background Pages\\Labpage_Lines1.jpg"); 
   backgroundPage.resize(backgroundPage.width/4, backgroundPage.height/4); 
   ss = new ArrayList<stringing>(); 
   ss.add( new stringing(0, 0) ); 
