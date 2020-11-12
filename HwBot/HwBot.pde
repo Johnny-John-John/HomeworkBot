@@ -23,11 +23,11 @@ void setup() {
   dropingobject = new SDrop(this) ;
 
   fonts = new PFont[] { 
-    createFont(System.getProperty("user.home") + "\\Desktop\\Homeworkbot\\Hand Fonts\\1.ttf",128)  
+    createFont(System.getProperty("user.home") + "\\Desktop\\Homeworkbot Files\\Hand Fonts\\1.ttf",128)  
     //createFont("C:\\Users\\Chinmay\\Desktop\\Homeworkbot\\HAND FONTS\\FINAL1.ttf", 128 ), 
     //createFont("C:\\Users\\Chinmay\\Desktop\\Homeworkbot\\HAND FONTS\\Omega1-Regular.ttf", 128 )
   } ; // PFont.list() ; 
-  backgroundPage = createImage(600,600,RGB) ; //loadImage(System.getProperty("user.home") + "\\Desktop\\Homeworkbot\\Background Pages\\Labpage_Lines1.jpg"); 
+  backgroundPage = createImage(600,600,RGB) ; //loadImage(System.getProperty("user.home") + "\\Desktop\\Homeworkbot Files\\Background Pages\\Labpage_Lines1.jpg"); 
   backgroundPage.resize(backgroundPage.width/4, backgroundPage.height/4); 
   ss = new ArrayList<stringing>(); 
   ss.add( new stringing(0, 0) ); 
