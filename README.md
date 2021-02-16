@@ -40,11 +40,11 @@ Follow the steps :
   
   > MIDDLECLICK TO PEEK, very useful too.
   
-  > SCROLL IN AND OUT FOR ZOOMING THE ENIRE PROGRAM, THIS WILL BE RESOURCE HEAVY SO KEEP RESETING IT WITH '`'.
+  > SCROLL IN AND OUT FOR ZOOMING THE ENIRE PROGRAM.
   
   > TAB will hide the UI ( cursor is UI too ), make sure you do this before saving.
   
-  > '*' goes and pastes what is in your clipboard, like cntrl+v.
+  > 'F1' goes and pastes what is in your clipboard, like cntrl+v.
   
   > '`' resets the pan and zoom, use this a lot, saves to you a lotta issues.
   
